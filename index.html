@@ -9,19 +9,23 @@
 </head>
 <body>
 
-    <div class="box">      
-    <h2>STOP WATCH</h2>
-    <div>
-        <h1 id="min">0</h1>
-        <h1 id="sec">0</h1>
-        <h1 id="msec">0</h1>        
+    <div class="main">
+        <div class="box">      
+            <h2>STOP WATCH</h2>
+            <div class="text">
+                <h1 id="min">0</h1>
+                <h1 id="sec">0</h1>
+                <h1 id="msec">0</h1>        
+            </div>
+            <div class="buttoned">
+                <button class="btn" id="a"  onclick="start()" >START</button>
+                <button onclick="Pause()" id="b" class="btn">PAUSE</button>
+                <button onclick="reset()" id="c" class="btn">RESET</button>      
+            </div>
+            </div>
+
     </div>
-    <div>
-        <button class="btn" id="a"  onclick="start()" >START</button>
-        <button onclick="Pause()" id="b" class="btn">PAUSE</button>
-        <button onclick="reset()" id="c" class="btn">RESET</button>      
-    </div>
-    </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
