@@ -69,7 +69,6 @@ box-shadow:  -2px -2px 42px #414556,
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
-<<<<<<< HEAD
 @media only screen and (max-width: 520px) {
     .box{
         
@@ -107,5 +106,4 @@ box-shadow:  -2px -2px 42px #414556,
         border-radius: 10px;
     }
   }
-=======
->>>>>>> 96562919f8a5f9180de7ca0166c4ca3174a68075
+
